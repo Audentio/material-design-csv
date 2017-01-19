@@ -79,7 +79,7 @@ if ($mdiUrl) {
         if ($count) {
             echo ', ';
         }
-        echo 'mdi mdi-'. str_replace ('_','-',$icons->name);
+        echo 'mdi mdi-'. str_replace('_','-',$icons->name);
         $count = $count + 1;
     }
 }
